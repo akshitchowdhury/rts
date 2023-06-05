@@ -8,7 +8,7 @@ body {
 
 .slide{
     width : 100%;
-    height: calc(100%-4em);
+    height: 80vh;
     padding: 4em;
     border-radius: 2em;
     margin: 2em 0;
