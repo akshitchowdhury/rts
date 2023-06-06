@@ -1,26 +1,9 @@
 import React from 'react'
 
 import './slide.css'
+import {hfinal,hstyle,bstyle,textcenter} from
+'./slide.style'
 
-
-const textcenter = {
-    textAlign : 'center' as const
-}
-
-const bstyle = {
-fontSize : '2 em',
-}
-
-const hstyle ={
-    fontSize : '4 em',
-    
-
-}
-
-const hfinal = {
-    ...hstyle,
-    ...textcenter
-}
 const el = (
     <div className='slide'>
         <h1 style={hfinal}>Styling in React</h1>
